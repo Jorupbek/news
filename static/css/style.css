@@ -1,0 +1,108 @@
+/* Шапка сайта */
+.header {
+    background: #222;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
+
+/* Активная кнопка в навигации */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+    background: #222;
+    color: #fff;
+}
+
+/* Кнопка в меню становится белой при наведении*/
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
+ {
+    color: #fff;
+}
+
+/* Кнопка в меню становится белой при наведении*/
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color:#fff;
+}
+
+/* Кнопка в меню становится белой при наведении*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #Fff;
+    background-color: transparent;
+}
+
+/*Кнопка поиска на  сайте*/
+#search {
+    border-radius: 5px;
+    width: 400px;
+}
+
+/*Секция main отступы для страниц*/
+#main {
+    padding: 20px 40px;
+}
+
+/*Дизайн селекта на страницах*/
+.main_select {
+    padding: 10px;
+    width: 100%;
+}
+
+/*Отступы для селектов чтобы выглядело красивее*/
+.select-padding {
+    padding: 10px 10px 0 0;
+}
+
+/*Настройки Date time picker*/
+.ui-datepicker .selected-start:not(.selected-end) a,
+.ui-datepicker .selected-end:not(.selected-start) a {
+  background: #F3FDD5;
+}
+
+.ui-datepicker .selected.first-of-month:not(.selected-start) a {
+  border-left: 2px dotted #D4E7F6;
+  padding-left: 1px;
+}
+
+.ui-datepicker .selected.last-of-month:not(.selected-end) a {
+  border-right: 2px dotted #D4E7F6;
+  padding-right: 1px;
+}
+/* Делает в рядм вместе с слекетами*/
+
+.inline {
+    display: inline-block;
+}
+
+/*Form control это inputы*/
+.form-control {
+    padding: 8px;
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 0px;
+    height: 40px
+}
+
+/*Summ box дизайн*/
+.summ-box {
+    padding: 10px;
+    border: 1px solid #337ab7;
+    border-radius: 10px;
+}
+
+/*Иконка CSV файла*/
+#exptexcel i,
+.icon-style {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+/*Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    background: #eee;
+    height: 50px;
+    padding: 15px 0;
+    left: 0;
+    width: 100%;
+}
+
